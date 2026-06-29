@@ -1,5 +1,19 @@
 package com.cmg.dao;
 
-public interface CartDao {
+import java.util.List;
 
+import com.cosmetics.dto.Cart;
+
+public interface CartDao {
+	 void addCart(Cart cart);
+
+	    void updateCart(Cart cart);
+
+	    void deleteCart(int cartId);
+
+	    Cart findById(int cartId);
+
+	    List<Cart> findAll();
+
+	    List<Cart> findByUserId(int userId);
 }

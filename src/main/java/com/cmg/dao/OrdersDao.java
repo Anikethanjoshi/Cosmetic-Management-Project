@@ -5,11 +5,11 @@ import java.util.List;
 import com.cosmetics.dto.Orders;
 
 public interface OrdersDao {
-	 int addOrder(Orders order);
+	 void addOrder(Orders order);
 
-	    int updateOrder(Orders order);
+	    void updateOrder(Orders order);
 
-	    int deleteOrder(int orderId);
+	    void deleteOrder(int orderId);
 
 	    Orders findById(int orderId);
 

@@ -5,11 +5,11 @@ import java.util.List;
 import com.cosmetics.dto.User;
 
 public interface UserDao {
-	int addUser(User user);
+	void addUser(User user);
 
-    int updateUser(User user);
+    void updateUser(User user);
 
-    int deleteUser(int userId);
+    void deleteUser(int userId);
 
     User findById(int userId);
 
@@ -17,5 +17,5 @@ public interface UserDao {
 
     User findByMailAndPassword(String email, String password);
 
-    User findByMail(String email);
+  
 }

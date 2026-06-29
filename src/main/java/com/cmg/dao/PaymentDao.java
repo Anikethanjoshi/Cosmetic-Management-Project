@@ -5,11 +5,11 @@ import java.util.List;
 import com.cosmetics.dto.Payment;
 
 public interface PaymentDao {
-	 int addPayment(Payment payment);
+	 void addPayment(Payment payment);
 
-	    int updatePayment(Payment payment);
+	    void updatePayment(Payment payment);
 
-	    int deletePayment(int paymentId);
+	    void deletePayment(int paymentId);
 
 	    Payment findById(int paymentId);
 

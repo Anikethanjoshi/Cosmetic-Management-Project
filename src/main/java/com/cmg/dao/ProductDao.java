@@ -5,11 +5,11 @@ import java.util.List;
 import com.cosmetics.dto.Product;
 
 public interface ProductDao {
-	int addProduct(Product product);
+	void  addProduct(Product product);
 
-    int updateProduct(Product product);
+    void updateProduct(Product product);
 
-    int deleteProduct(int productId);
+    void deleteProduct(int productId);
 
     Product findById(int productId);
 
