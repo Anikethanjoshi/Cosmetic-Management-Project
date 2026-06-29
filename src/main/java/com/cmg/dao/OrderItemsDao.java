@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.OrderItems;
+import com.cmg.dto.OrderItems;
 
 public interface OrderItemsDao {
 	    void addOrderItem(OrderItems item);

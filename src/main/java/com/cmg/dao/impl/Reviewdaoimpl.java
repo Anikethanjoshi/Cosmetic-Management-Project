@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cmg.dao.ReviewDao;
+import com.cmg.dto.Review;
+import com.cmg.dto.User;
 import com.cmg.utility.Connector;
-import com.cosmetics.dto.Review;
-import com.cosmetics.dto.User;
 
 public class Reviewdaoimpl implements ReviewDao {
 	private Connection con;

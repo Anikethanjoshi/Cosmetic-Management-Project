@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.Category;
+import com.cmg.dto.Category;
 
 public interface CategoryDao {
 	 void addCategory(Category category);

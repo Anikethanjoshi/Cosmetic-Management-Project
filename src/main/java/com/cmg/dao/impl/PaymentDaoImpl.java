@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cmg.dao.PaymentDao;
+import com.cmg.dto.Payment;
 import com.cmg.utility.Connector;
-import com.cosmetics.dto.Payment;
 
 public class PaymentDaoImpl implements PaymentDao {
 	private Connection con;

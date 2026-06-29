@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.Review;
+import com.cmg.dto.Review;
 
 public interface ReviewDao {
 	 void addReview(Review review);

@@ -3,7 +3,8 @@ package com.cmg.dao.impl;
 import java.util.List;
 
 import com.cmg.dao.CartDao;
-import com.cosmetics.dto.Cart;
+import com.cmg.dto.Cart;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.Payment;
+import com.cmg.dto.Payment;
 
 public interface PaymentDao {
 	 void addPayment(Payment payment);

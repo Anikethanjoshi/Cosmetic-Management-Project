@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.Cart;
+import com.cmg.dto.Cart;
 
 public interface CartDao {
 	 void addCart(Cart cart);

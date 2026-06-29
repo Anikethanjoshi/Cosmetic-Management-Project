@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cmg.dao.CategoryDao;
+import com.cmg.dto.Category;
 import com.cmg.utility.Connector;
-import com.cosmetics.dto.Category;
 
 public class CategoryDaoImpl implements CategoryDao {
 	private Connection con;

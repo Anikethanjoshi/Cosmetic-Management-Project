@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.User;
+import com.cmg.dto.User;
 
 public interface UserDao {
 	void addUser(User user);

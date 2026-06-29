@@ -2,7 +2,7 @@ package com.cmg.dao;
 
 import java.util.List;
 
-import com.cosmetics.dto.Product;
+import com.cmg.dto.Product;
 
 public interface ProductDao {
 	void  addProduct(Product product);

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cmg.dao.OrderItemsDao;
+import com.cmg.dto.OrderItems;
 import com.cmg.utility.Connector;
-import com.cosmetics.dto.OrderItems;
 
 public class OrdersItemsDaoImpl implements OrderItemsDao {
 	private Connection con;

@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cmg.dao.UserDao;
+import com.cmg.dto.User;
 import com.cmg.utility.Connector;
-import com.cosmetics.dto.User;
 
 public class UserDaoImpl implements UserDao {
 	private Connection con;
